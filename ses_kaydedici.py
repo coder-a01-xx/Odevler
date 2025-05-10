@@ -18,7 +18,7 @@ kaydetme= sd.rec(int(süre*hız),samplerate=hız, channels=1,dtype="float32")
 
 sd.wait()
 
-print("tamm")
+print("İşlem tamamlandı")
 
 
 def butter_lowpass_filter(data,cutoff,hız,order=5):
